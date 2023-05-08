@@ -1,0 +1,52 @@
+body{
+    background-color: #33475b;
+}
+#heading{
+    text-align: center;
+    color: #ffd700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#textBox {
+	font-family: inherit;
+	line-height:inherit;
+	color:#2e3750;
+	width:250px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ffc0cb;
+    text-align: center;
+    margin-left: 500px;
+}
+#generateButton{
+    width:150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color:chartreuse;
+}
+#grid {
+	position: relative;
+	top: 30px;
+	outline:2px solid #000;
+	font-size: 0;
+	margin:auto;
+	height:auto;
+	width:640px;
+	padding: 40px;
+	border: none;
+}
+.grid-cell {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	background-image: url("https://png.pngtree.com/element_our/20190528/ourmid/pngtree-gift-icon-image_1128272.jpg");
+	background-size: 50px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+	  -webkit-appearance: none;
+	  appearance: none;
+	  margin: 0; 
+  }
